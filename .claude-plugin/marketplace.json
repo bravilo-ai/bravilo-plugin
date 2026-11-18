@@ -1,0 +1,13 @@
+{
+  "name": "bravilo",
+  "owner": { "name": "Bravilo" },
+  "description": "Plugins oficiales de Bravilo.",
+  "plugins": [
+    {
+      "name": "bravilo",
+      "source": "./",
+      "description": "Conectá tu cuenta de Bravilo: inbox, contactos, leads, pipeline y métricas.",
+      "category": "productivity"
+    }
+  ]
+}

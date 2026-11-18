@@ -1,0 +1,14 @@
+{
+  "name": "bravilo",
+  "displayName": "Bravilo",
+  "version": "0.1.0",
+  "description": "Conectá tu cuenta de Bravilo: inbox, contactos, leads, pipeline y métricas, en modo solo lectura.",
+  "author": { "name": "Bravilo", "url": "https://braviloai.com" },
+  "homepage": "https://braviloai.com",
+  "documentationUrl": "https://help.braviloai.com",
+  "supportUrl": "https://help.braviloai.com",
+  "privacyPolicyUrl": "https://app.braviloai.com/privacy",
+  "termsOfServiceUrl": "https://app.braviloai.com/terms",
+  "icon": "./assets/logo.png",
+  "keywords": ["crm", "whatsapp", "ventas", "inbox", "leads"]
+}

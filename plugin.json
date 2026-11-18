@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bravilo",
+  "version": "0.1.0",
+  "description": "Conectá tu cuenta de Bravilo: inbox, contactos, leads, pipeline y métricas, en modo solo lectura.",
+  "author": { "name": "Bravilo", "url": "https://braviloai.com" },
+  "homepage": "https://braviloai.com",
+  "keywords": ["crm", "whatsapp", "ventas", "inbox", "leads"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Bravilo",
+        "shortDescription": "Tu inbox y ventas de Bravilo",
+        "longDescription": "Consultá tu cuenta de Bravilo desde el chat: conversaciones del inbox, contactos y su perfil comercial, leads, pipeline, pronóstico, leads en riesgo, tareas y métricas. Acceso de solo lectura, acotado a tu organización.",
+        "developerName": "Bravilo",
+        "category": "Productivity",
+        "websiteURL": "https://braviloai.com",
+        "supportURL": "https://help.braviloai.com",
+        "privacyPolicyURL": "https://app.braviloai.com/privacy",
+        "termsOfServiceURL": "https://app.braviloai.com/terms",
+        "capabilities": ["Read"],
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png",
+        "defaultPrompt": [
+          "¿Cómo viene mi día en Bravilo?",
+          "¿Qué leads están en riesgo esta semana?",
+          "Resumime las conversaciones sin responder"
+        ]
+      }
+    }
+  }
+}
